@@ -1,7 +1,3 @@
-Aqui está um exemplo de README para o seu projeto em Python:
-
----
-
 # Play - Projeto de Programação em Python
 
 Este projeto tem como objetivo aplicar conceitos avançados da linguagem Python, desenvolvendo uma série de programas que abordam diferentes aspectos da programação.
