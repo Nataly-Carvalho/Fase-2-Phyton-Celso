@@ -15,9 +15,9 @@ def calcular_media_movel(df, dias=5):
 def plotar_grafico(df):
     plt.figure(figsize=(10, 5))
     plt.plot(df['data'], df['ocorrencias'], label='Ocorrências Diárias', marker='o')
-    plt.plot(df['data'], df['media_movel'], label='Média Móvel (5 dias)', linestyle='--', color='orange')
+    plt.plot(df['data'], df['media_movel'], label='Média Móvel ', linestyle='--', color='orange')
 
-    plt.title('Ocorrências Diárias e Média Móvel de 5 Dias')
+    plt.title('Ocorrências Diárias e Média Móvel ')
     plt.xlabel('Data')
     plt.ylabel('Ocorrências')
     plt.legend()
