@@ -16,11 +16,9 @@ while True:
             funcoes.divisao(numero1=numero1, numero2=numero2)
         elif op == "4":
             funcoes.multiplicacao(numero1=numero1, numero2=numero2)
-
     elif op == "5":
         print("Saindo...")
         break
-
     else:
         print('Valor inválido, por favor selecione uma opção válida.')
 
